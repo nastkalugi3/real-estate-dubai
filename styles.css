@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #4b4b4b;
+    background-color: #f9f5f1;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url('dubai-sunset.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about, .services, .advantages, .contact {
+    background-color: #fffaf3;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.about h2, .services h2, .advantages h2, .contact h2 {
+    color: #a5753d;
+    border-bottom: 2px solid #f3d19e;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f3d19e;
+    color: #4b4b4b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #a5753d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #916940;
+}
+
+footer {
+    background-color: #f3d19e;
+    padding: 20px;
+    text-align: center;
+    color: #4b4b4b;
+}
+
+footer .socials a {
+    margin: 0 10px;
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+footer .socials a:hover {
+    color: #a5753d;
+}
